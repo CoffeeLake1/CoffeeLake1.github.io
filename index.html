@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compat" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;0,100,300..800;1,75..100,300..800;1,100,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="conteiner">
+          <!-- навигация по сайту -->
+          <div class="header__inner">
+            <!-- лейб -->
+            <a class="logo" href="#">
+              <img src="images/logo.svg" alt="CoffeE LakE" />
+            </a>
+
+            <!--бургер images/burger.svg -->
+            <a class="burger" href="#"
+              ><img src="images/burger.svg" alt="burger"
+            /></a>
+
+            <!-- Пять кнопок видов кофе   -->
+            <nav class="menu">
+              <ul class="menu__list">
+                <!-- Кнопка close -->
+                <li class="menu__close">
+                  <button class="menu__close-btn">
+                    <img src="images/close.svg" alt="close" />
+                  </button>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Arabica</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Robusta</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Liberica</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Excelsa</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Kopi luwak</a>
+                </li>
+
+                <!-- Всплывающее меню mobile -->
+                <li class="mobile-nav">
+                  <!-- Средняя часть -->
+                  <ul class="mobile-menu">
+                    <li class="mobile-menu__item">
+                      <a class="mobile__menu-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                      <a class="mobile__menu-link" href="#">Our Blog</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                      <a class="mobile__menu-link" href="#"
+                        >Shipping and Delivery</a
+                      >
+                    </li>
+                  </ul>
+                  <!-- Скопированная нижняя часть Три кнопки – корзина, логин, поиск -->
+                  <ul class="mobile-action">
+                    <li class="mobile-action__item">
+                      <a class="mobile-action__link" href="#">
+                        <img src="images/cart.svg" alt="неверно" />
+                      </a>
+                    </li>
+
+                    <li class="mobile-action__item">
+                      <a class="mobile-action__link" href="#">
+                        <img src="images/user.svg" alt="неверно" />
+                      </a>
+                    </li>
+
+                    <li class="mobile-action__item">
+                      <a class="mobile-action__link" href="#">
+                        <img src="images/search.svg" alt="неверно" />
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="three_btn">
+              <!-- Три кнопки – корзина, логин, поиск -->
+              <ul class="user-action">
+                <li class="user-action__item">
+                  <a class="user-action__link" href="#"
+                    ><img src="images/cart.svg" alt="неверно"
+                  /></a>
+                </li>
+                <li class="user-action__item">
+                  <a class="user-action__link" href="#"
+                    ><img src="images/user.svg" alt="неверно"
+                  /></a>
+                </li>
+                <li class="user-action__item user-action__item-search">
+                  <a class="user-action__link" href="#"
+                    ><img src="images/search.svg" alt="неверно"
+                  /></a>
+
+                  <!--Вариант поиска
+                             <search>
+                                <form action="#">
+                                    <input type="search">
+                                    <button type="submit">
+                                    </button>
+                                </form>
+                            </search> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="top">
+          <div class="conteiner">
+            <div class="top__inner">
+              <h1 class="top__title">
+                Coffee is a wonderful drink that warms the world.
+              </h1>
+              <p class="top__text">
+                Wide selection of high quality coffees from all over the world,
+                carefully selected by professionals.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <blockquate class="blockquate">
+          <p class="blockquate__text">
+            "Do not put in the morning coffee past memories. Better add sugar
+            future hopes."
+          </p>
+        </blockquate>
+
+        <!-- Ассортимент кофе -->
+        <section class="assortment">
+          <div class="conteiner">
+            <!-- Надпись -->
+            <h2 class="title assortment__title">Explore our Collections</h2>
+            <ul class="assortment__list">
+              <li class="assortment__item">
+                <img class="assortment__img" src="images/arabica.png" alt="" />
+                <p class="assortment__name">Arabica</p>
+              </li>
+
+              <li class="assortment__item">
+                <img class="assortment__img" src="images/Robusta.png" alt="" />
+                <p class="assortment__name">Robusta</p>
+              </li>
+
+              <li class="assortment__item">
+                <img class="assortment__img" src="images/Liberica.png" alt="" />
+                <p class="assortment__name">Liberica</p>
+              </li>
+
+              <li class="assortment__item">
+                <img class="assortment__img" src="images/Excelsa.png" alt="" />
+                <p class="assortment__name">Excelsa</p>
+              </li>
+
+              <li class="assortment__item">
+                <img
+                  class="assortment__img"
+                  src="images/Kopi luwak.png"
+                  alt=""
+                />
+                <p class="assortment__name">Kopi luwak</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Секция с отзывами -->
+        <section class="reviews">
+          <div class="conteiner__reviews">
+            <!-- Надпись -->
+            <h2 class="title reviews__title">What our Clients say</h2>
+            <!-- Отзывы  -->
+            <ul class="reviews__list">
+              <li class="reviews__item">
+                <p class="reviews__text">
+                  "As a coffee enthusiast, I’ve tried coffee from all over the
+                  world, but this store really stands out. Their coffee is top
+                  quality and the variety is impressive. It’s definitely a shop
+                  that every enthusiast should visit."
+                </p>
+                <p class="reviews__name">Vitaly</p>
+              </li>
+
+              <li class="reviews__item">
+                <p class="reviews__text">
+                  “Order here regularly freshly roasted coffee. The service is
+                  on top!!! Very good service. Every delivery in addition to the
+                  ordered coffee packets sent souvenirs - very nice, although
+                  small. “
+                </p>
+                <p class="reviews__name">Anastasiya</p>
+              </li>
+
+              <li class="reviews__item">
+                <p class="reviews__text">
+                  "If you like coffee, don’t miss out on this shop! The choice
+                  is huge and the quality outstanding. I guarantee you will not
+                  be disappointed."
+                </p>
+                <p class="reviews__name">Tatyana</p>
+              </li>
+
+              <li class="reviews__item">
+                <p class="reviews__text">
+                  "Simply amazing coffee shop with huge selection! It was
+                  recommended to me as a market for Italian coffee, but there is
+                  so much to buy here, including accessories, dishes, various
+                  additives to drinks and even tea, which I also love. "
+                </p>
+                <p class="reviews__name">Evgeny</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Секция BLOG -->
+        <section class="blog">
+          <div class="conteiner__blog">
+            <!-- Надпись -->
+            <h2 class="title blog__title">Our coffee blog</h2>
+
+            <!-- Отзывы  -->
+            <ul class="blog blog__list1">
+              <li class="blog__item">
+                <button class="btn_blog_read_more">
+                  <img class="blog__img" src="images/blog_btn1.png" alt="#" />
+                </button>
+              </li>
+
+              <li class="blog__item">
+                <button class="btn_blog_read_more">
+                  <img class="blog__img" src="images/bkog_btn2.png" alt="#" />
+                </button>
+              </li>
+            </ul>
+            <ul class="blog blog__list2">
+              <li class="blog__item">
+                <button class="btn_blog_read_more">
+                  <img class="blog__img" src="images/blog_btn3.png" alt="#" />
+                </button>
+              </li>
+
+              <li class="blog__item">
+                <button class="btn_blog_read_more">
+                  <img class="blog__img" src="images/blog_btn4.png" alt="#" />
+                </button>
+              </li>
+            </ul>
+
+            <div class="btn_blog">
+              <button class="btn_blog_view_all">
+                <img class="view_all_img" src="images/View all.png" alt="#" />
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- JOIN -->
+        <section class="mailing-list">
+          <div class="conteiner__mailing">
+            <!-- Надпись -->
+            <h2 class="mailing__title">Want to know more?</h2>
+
+            <ul class="mailing__list">
+              <li class="mailing__item mailing__item_one">
+                <p class="mailing__text">
+                  Join our mailing list and stay up to date with the latest
+                  news, promotions and exclusive offers from our coffee shop. Be
+                  the first to know about new coffee varieties, seasonal blends
+                  and special discounts. Don’t miss the discounts - register
+                  today!
+                </p>
+              </li>
+
+              <li class="mailing__item">
+                <form class="mailing-list__form" action="#">
+                  <input
+                    class="mailing-list__email"
+                    type="email"
+                    placeholder="name@email.com"
+                  />
+                  <button class="mailing-list__btn" type="submit">Join</button>
+
+                  <!-- <button class="btn_mailing_join">
+                    <img
+                      class="mailing_join_img"
+                      src="images/btn_join.png"
+                      alt="#"/>
+                  </button> -->
+
+                  <label class="mailing-list__label">
+                    <input class="checkbox" type="checkbox" />
+                    <span class="checkbox-style"></span>
+                    <p class="checkbox__text">
+                      We take your privacy seriously and are committed to
+                      protecting your personal information. By subscribing to
+                      our mailing list, you agree to receive periodic emails
+                      from us about our products, promotions and other
+                      information related to coffee.
+                    </p>
+                  </label>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- We Prioritise -->
+        <section class="prioritise">
+          <div class="prioritise_conteiner">
+            <h2 class="title prioritise__tit">We Prioritise</h2>
+
+            <ul class="prioritise__list">
+              <li class="prioritise__item">
+                <h4 class="prioritise__title">Our goal</h4>
+                <p class="prioritise__text">Maximize the taste</p>
+                <img
+                  class="prioritise__img"
+                  src="images/Prioritise1.svg"
+                  alt="#"
+                />
+              </li>
+
+              <li class="prioritise__item">
+                <h4 class="prioritise__title">Coffee only</h4>
+                <p class="prioritise__text">Each grade is certified</p>
+                <img
+                  class="prioritise__img"
+                  src="images/Prioritise2.svg"
+                  alt="#"
+                />
+              </li>
+
+              <li class="prioritise__item">
+                <h4 class="prioritise__title">Customer support</h4>
+                <p class="prioritise__text">No bots, no automated replies</p>
+                <img
+                  class="prioritise__img"
+                  src="images/Prioritise3.svg"
+                  alt="#"
+                />
+              </li>
+
+              <li class="prioritise__item">
+                <h4 class="prioritise__title">Fast shipping</h4>
+                <p class="prioritise__text">Save, Convenient, Reliable</p>
+                <img
+                  class="prioritise__img"
+                  src="images/Prioritise4.svg"
+                  alt="#"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="conteiner">
+          <!-- Верхняя часть -->
+          <div class="footer__inner">
+            <ul class="footer__products">
+              <li class="footer__products-title">Products</li>
+
+              <li class="footer__products-item">
+                <a class="footer__products-link" href="#">Arabica</a>
+              </li>
+              <li class="footer__products-item">
+                <a class="footer__products-link" href="#">Robusta</a>
+              </li>
+              <li class="footer__products-item">
+                <a class="footer__products-link" href="#">Liberica</a>
+              </li>
+              <li class="footer__products-item">
+                <a class="footer__products-link" href="#">Excelsa</a>
+              </li>
+              <li class="footer__products-item">
+                <a class="footer__products-link" href="#">Kopi luwak</a>
+              </li>
+            </ul>
+
+            <ul class="footer__company">
+              <li class="footer__company-title">Company</li>
+
+              <li class="footer__company-item">
+                <a class="footer__company-link" href="#">About Us</a>
+              </li>
+
+              <li class="footer__company-item">
+                <a class="footer__company-link" href="#">Contact Us</a>
+              </li>
+
+              <li class="footer__company-item">
+                <a class="footer__company-link" href="#">Our Blog</a>
+              </li>
+
+              <li class="footer__company-item">
+                <a class="footer__company-link" href="#">FAQ</a>
+              </li>
+
+              <li class="footer__company-item">
+                <a class="footer__company-link" href="#">Shipping & Delivery</a>
+              </li>
+
+              <li class="footer__company-item">
+                <a class="footer__company-link" href="#">Refund policy</a>
+              </li>
+
+              <li class="footer__company-item">
+                <a class="footer__company-link" href="#">Terms of Service</a>
+              </li>
+            </ul>
+
+            <blockquote class="footer__blockquote">
+              <p class="footer__blockquote-text">
+                “Once people started their day with a cup of coffee and
+                newspapers, in the future they will start it with coffee and
+                website.”
+              </p>
+              <cite class="footer__blockquote-author">
+                Beaver Voronezhsky, <br />
+                Coffee Lake owner
+              </cite>
+            </blockquote>
+
+            <!-- из двух частей -->
+            <div class="footer__contacts">
+              <h5 class="footer__contacts-title">Stay In Touch</h5>
+              <p class="footer__contacts-text">
+                Please feel free to contact us via the email of phone. We would
+                be happy to hear from you!
+              </p>
+
+              <ul class="footer__nav">
+                <li class="footer__nav-logo">
+                  <a class="footer__logo" href="#">
+                    <img
+                      class="footer__logo-img"
+                      src="images/footer__logo.svg"
+                      alt="#"
+                    />
+                  </a>
+                </li>
+
+                <li class="footer__nav-contacts">
+                  <a class="footer__nav-phone" href="tel:+452920121126">
+                    +45 29-2012-11-26</a
+                  >
+
+                  <a
+                    class="footer__nav-email"
+                    href="mailto:info@coffeelake.com"
+                  >
+                    info@coffeelake.com</a
+                  >
+                </li>
+
+                <li class="footer__social">
+                  <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                      <a class="footer__social-link" href="#">
+                        <img
+                          class="footer__social-img"
+                          src="images/facebooke.svg"
+                          alt="#"
+                        />
+                      </a>
+                    </li>
+
+                    <li class="footer__social-item">
+                      <a class="footer__social-link" href="#">
+                        <img
+                          class="footer__social-img"
+                          src="images/youtube.svg"
+                          alt="#"
+                        />
+                      </a>
+                    </li>
+
+                    <li class="footer__social-item">
+                      <a class="footer__social-link" href="#">
+                        <img
+                          class="footer__social-img"
+                          src="images/instagram.svg"
+                          alt="#"
+                        />
+                      </a>
+                    </li>
+
+                    <li class="footer__social-item">
+                      <a class="footer__social-link" href="#">
+                        <img
+                          class="footer__social-img"
+                          src="images/telegram.svg"
+                          alt="#"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Нижняя часть -->
+          <div class="footer__bottom">
+            <p class="footer__copy">© CoffeE LakE, 2024</p>
+
+            <ul class="partners-logo">
+              <li class="partners-logo__item">
+                <img class="partners__img" src="images/partners1.svg" alt="#" />
+              </li>
+
+              <li class="partners-logo__item">
+                <img class="partners__img" src="images/partners2.svg" alt="#" />
+              </li>
+
+              <li class="partners-logo__item">
+                <img class="partners__img" src="images/partners3.svg" alt="#" />
+              </li>
+
+              <li class="partners-logo__item">
+                <img class="partners__img" src="images/partners4.svg" alt="#" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
