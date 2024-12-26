@@ -1014,5 +1014,8 @@ padding-left: 150px;
     margin-left: auto;
     margin-right: auto;
   }
-
+.footer__copy {
+    margin-right: 40px;
+    padding-right: 20px;
+  }
 }
